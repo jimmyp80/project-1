@@ -11,53 +11,61 @@
 </head>
 <body>
     <div id="containerMain">
+        <!--SECTION 1 INCLUDING NAVBAR-->
         <div id="section1">
-            <header>
-                <span id="logo"><strong>Header Logo</strong></span>
-                <span id="menuItems">
-                    <ul>
-                        <li><a>header link one</a></li>
-                        <li><a>header link two</a></li>
-                        <li><a>header link three</a></li>
-                    </ul>
+            <!--NAVBAR-->
+            <ul id="menuItems">
+                <li id="logo"><a href="#">Header Logo</a></li>
+                <span style="float:right;">
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
                 </span>
-            </header>
-            <div class="flex-container">
-                <div id="content1" class="flex-item">
+            </ul>
+
+            <!--SECTION 1 CONTENT-->
+            <div class="flex-container" id="content1Container">
+                <div id="content1" style="flex: 50%;">
                     <h1>This website is awesome</h1>
                     <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
                     <button type="button" id="signUpBtn">Sign up</button>
                 </div>
-                <div id="imgPlaceholder1" class="flex-item">
+                <div id="imgPlaceholder1" style="flex: 50%;">
                     <p>this is a placeholder for an image</p>
                 </div>
             </div>
         </div>
+
+        <!--SECTION 2-->
         <div id="section2">
-            <h2>Some random information</h2>
+            <h2>Some random information.</h2>
             <div class="flex-container">
-                <div class="flex-item">
+                <div class="section2Item">
                     <div class="section2Box"></div>
-                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                    <figcaption class="section2Text">this is some subtext under an illustration or image</figcaption>
                 </div>
-                <div class="flex-item">
+                <div class="section2Item">
                     <div class="section2Box"></div>
-                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                    <figcaption class="section2Text">this is some subtext under an illustration or image</figcaption>
                 </div>
-                <div class="flex-item">
+                <div class="section2Item">
                     <div class="section2Box"></div>
-                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                    <figcaption class="section2Text">this is some subtext under an illustration or image</figcaption>
                 </div>
-                <div class="flex-item">
+                <div class="section2Item">
                     <div class="section2Box"></div>
-                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                    <figcaption class="section2Text">this is some subtext under an illustration or image</figcaption>
                 </div>
             </div>
         </div>
+
+        <!--SECTION 3-->
         <div id="section3">
-            <p id="section3QuoteText">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know isthat it looks nice.</p>
+            <p id="section3QuoteText">This is an inspiring quote, or a testimonial from a customer.  Maybe it's just filling up space, or maybe people will actually read it.  Who knows?  All I know is that it looks nice.</p>
             <p id="section3QuoteThor">-Thor, God of Thunder</p>
         </div>
+
+        <!--SECTION 4-->
         <div id="section4">
             <div id="section4InnerDiv" class="flex-container">
                 <div class="flex-item">
@@ -69,6 +77,8 @@
                 </div>
             </div>
         </div>
+
+        <!--FOOTER-->
         <footer>
             <p>Copyright &copy; The Odin Project 2021</p>
         </footer>
